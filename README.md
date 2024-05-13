@@ -49,11 +49,10 @@ To manually visit the urls, please use '#' to comment-out the following decorato
 @permission_classes([IsAuthenticated])
 ```
 You may now visit the following api endpoints:
-POST /api/vendors/: Create a new vendor.
-- GET /api/vendors/: List all vendors
-- GET /api/vendors/{vendor_id}/: Retrieve a specific vendor's details. (vendors in database: TEMP001, TEMP002)
-- GET /api/purchase_orders/: List all purchase orders with an option to filter by
+- /api/vendors/: List all vendors
+- /api/vendors/{vendor_id}/: Retrieve a specific vendor's details. (vendors in database: TEMP001, TEMP002)
+- /api/purchase_orders/: List all purchase orders with an option to filter by
 vendor.
-- GET /api/purchase_orders/{po_id}/: Retrieve details of a specific purchase order. (purchase orders in database: XYZ001, XYZ002)
-- GET /api/vendors/{vendor_id}/performance: Retrieve a vendor's performance
+- /api/purchase_orders/{po_id}/: Retrieve details of a specific purchase order. (purchase orders in database: XYZ001, XYZ002)
+- /api/vendors/{vendor_id}/performance: Retrieve a vendor's performance
 metrics.
